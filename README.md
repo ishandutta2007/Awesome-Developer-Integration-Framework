@@ -32,6 +32,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -42,69 +43,23 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+## Sector Overview & Market Dynamics
+
+The global Integration Platform as a Service (iPaaS) and developer integration market is estimated at **$8B to $16B+** (growing at a 15-25% CAGR toward $30B+ by 2030), driven by cloud-native transitions, GenAI agent tooling, and hybrid API architectures. The sector exhibits a **hybrid market structure**: it is **concentrated at the top** among established enterprise titans capturing massive enterprise contract values, yet **highly fragmented across mid-market, SMB, and developer tiers** where agile low-code tools, embedded iPaaS (e-iPaaS), and open-source alternatives rapidly innovate.
+
 ## SaaS/Hosted Platforms
 
-
-
-- **MuleSoft Anypoint Platform**
-
-  **Enterprise integration and API management** platform. **Pricing**: **vCore-based**—list price per vCore, with premium connectors adding **15–40%** on top and required for every environment (production, staging, test, sandbox, development, DR) . **Free tier**: **30-day trial** covering full portfolio . **Best for**: large enterprises needing API-led connectivity with governance—**trade-off**: vCore commitments are opaque; unused capacity is common; test smaller worker sizes in sandbox before renewal .
-
-
-
-- **Workato**
-
-  **Enterprise automation platform** with recipe-based integrations. **Pricing**: **Free** with **50,000 one-time credits** that never expire; **Pro from $100/month** for 2,500 recurring credits, scaling to **$1,275/month for 50,000 credits**; **no credit rollover**—unused Pro credits expire monthly . **Free tier**: Yes, 50,000 one-time credits. **Best for**: teams wanting self-service automation without sales contact—**trade-off**: credit consumption applies to tasks, API calls, rows processed, and Genie Actions .
-
-
-
-- **Tray.ai**
-
-  **Low-code iPaaS for enterprise** with 700+ connectors. **Pricing**: **Quote-only**; three tiers—**Pro** (3 workspaces, individual/small teams), **Team** (20 workspaces, collaboration, version control), **Enterprise** (unlimited workspaces, SSO, log streaming) . Add-ons include **Agent Gateway for MCP** and **Merlin Agent Builder**, both extra cost . **Free tier**: None; sales-led. **Best for**: technical teams building complex multi-system workflows—**trade-off**: no published pricing; agent features add complexity.
-
-
-
-- **Zapier**
-
-  **No-code automation** with 9,000+ apps. **Pricing**: **Free** with two-step Zaps; **Professional** adds multi-step, faster polling (2 min); **Team** (25 seats) and **Enterprise** (unlimited seats, advanced governance) . **Free tier**: Yes, two-step Zaps only. **Best for**: non-technical teams wanting simple trigger-action automations—**trade-off**: multi-step and faster polling require paid plans.
-
-
-
-- **Make**
-
-  **Visual automation platform** with credit-based pricing. **Pricing**: **Freemium**, **$9/month annual** entry; credits bill per module action, not per task; annual billing lets credits pool across 12 months on Pro+ . **Free tier**: Yes, limited credits. **Best for**: power users wanting visual flows with more control than Zapier—**trade-off**: credit exhaustion pauses scenarios on lower tiers .
-
-
-
-- **Boomi**
-
-  **Cloud integration platform** with flexible pricing. **Pricing**: **Subscription plans** (Professional, Professional Plus, Enterprise, Enterprise Plus) plus **usage-based** option; **30-day free trial** with all features . **Free tier**: 30-day trial. **Best for**: organizations wanting consumption-based flexibility—**trade-off**: tier features vary significantly; Enterprise Plus adds messaging.
-
-
-
-- **Atlassian Connect**
-
-  **Framework for building Atlassian Cloud apps** that operate remotely over HTTP. Apps can be written in **any language or framework**; Atlassian provides official frameworks handling JWT authentication, host persistence, install/uninstall callbacks, and descriptor serving . **Free tier**: N/A (framework). **Best for**: developers extending Jira/Confluence with remote apps—**trade-off**: not a general integration platform; Atlassian-specific.
-
-
-
-- **Postman**
-
-  **API development and testing platform** with collections and mock servers. **Pricing**: Free tier; paid per user. **Free tier**: Yes, limited collection runs. **Best for**: teams wanting a polished API client—**trade-off**: data stored in vendor cloud.
-
-
-
-- **Cloud Elements**
-
-  **Embedded integration platform** with Hub APIs and bulk operations. **Pricing**: Quote-only. **Free tier**: None. **Best for**: SaaS vendors wanting standardized APIs across CRM, documents, and other hubs—**trade-off**: bulk APIs have vendor limits and pagination standards .
-
-
-
-- **Singer**
-
-  **Open-source ETL standard** for taps and targets. **Pricing**: Free (open source). **Free tier**: Yes. **Best for**: data engineers wanting composable extraction scripts—**trade-off**: Unix-pipe model requires orchestration; not a visual builder .
-
-
+| Product | Company Valuation / Revenue | Pricing (Starting Tier) | Free Tier / Trial Limits | Category / Focus | Key Trade-off / Notes |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Atlassian Connect** | **$49B Market Cap** ($6.57B FY26 Revenue) | **$0/month** (Framework is free; hosting on user infrastructure, paid cloud plans scale from $7.90/user/mo) | **Free forever Developer Bundle** (Standard Jira/Confluence Cloud access capped at small developer teams, 2 GB storage limit, subject to inactivity purge) | App Developer Framework | Restricted to Atlassian Cloud ecosystem; external app hosting, auth servers, and database are self-managed. |
+| **MuleSoft Anypoint Platform** | **$6.5B Deal Valuation** (Salesforce unit; ~$350M+ ARR at buyout) | **$2,000/month** ($24,000/year billed annually for Integration Starter) | **30-day free trial** with access to Anypoint Design Center, API Manager, Exchange, and full portfolio capabilities | Enterprise iPaaS & API Mgmt | Opaque vCore / credit-based pricing model; premium connectors incur 15-40% surcharges per environment. |
+| **Workato** | **$5.7B Valuation** (Series E; ~$250M+ ARR) | **$100/month** (Pro plan for 2,500 recurring monthly credits, scaling to $1,275/mo for 50,000 credits) | **Free forever plan** with **50,000 one-time credits** (never expire; no recurring monthly top-up) | Enterprise Automation & iPaaS | No credit rollover on paid tiers (unused Pro credits expire monthly); all tasks, API calls, and rows consume credits. |
+| **Postman** | **$5.6B Valuation** (Series D; $100M+ ARR) | **$9/month** billed annually ($12/mo monthly) for Solo plan; **$19/user/month** for Team tier | **Free forever plan** for **1 solo user**, unlimited collection runs, unlimited local/cloud mock servers, and 1,000 API monitoring runs/month | API Development & Testing | Team workspaces, collection collaboration, and shared mocks require paid Team seats ($19/user/mo). |
+| **Zapier** | **$5.0B Valuation** (~$310M ARR) | **$19.99/month** billed annually ($29.99/mo monthly) for Professional plan (750 tasks/mo) | **Free forever plan** limited to **100 tasks/month**, single-user, two-step Zaps only (1 trigger, 1 action), and 15-minute polling | No-Code Workflow Automation | Multi-step automations, conditional logic paths, webhooks, and fast 2-minute polling require paid plans. |
+| **Boomi** | **$4.0B Deal Valuation** (TPG / Francisco Partners private buyout) | **$99/month** (Pay-As-You-Go entry tier plus metered usage at ~$0.05 per message; Professional starts at ~$20,000/yr) | **30-day free trial** with unrestricted full-featured access to AtomSphere platform, connectors, and environment runtimes | Enterprise Cloud iPaaS | Connector-based licensing scales costs rapidly as endpoints grow; advanced message queuing requires higher tiers. |
+| **Tray.ai** | **$600M+ Valuation** (Series C-ext; $150M+ raised) | **$595/month** (Pro starter tier, 3 workspaces, 250k task credits, 7-day log retention) | **14-day free trial** available upon request/sales qualification with basic workflow sandboxing; no permanent free plan | Low-Code Enterprise iPaaS | Sales-led quotes; high entry pricing; advanced Merlin AI agents and Agent Gateway for MCP require paid add-ons. |
+| **Make** | **$50M+ ARR** (Celonis unit; parent valued at $13.2B) | **$9/month** billed annually ($10.59/mo monthly) for Core plan (10,000 operations/month) | **Free forever plan** with **1,000 operations/month**, maximum 2 active scenarios, and 15-minute execution interval | Visual Workflow Automation | Operations bill per module execution rather than per workflow scenario; credit exhaustion halts scenarios on lower tiers. |
+| **Cloud Elements** | **Acquired by UiPath** ($7.2B Market Cap, $1.7B Revenue; legacy purchase undisclosed) | **$0/month Community**; UiPath Automation Cloud entry packages start at **$420/month** ($5,040/year) | **Free forever Community Plan** (UiPath Automation Cloud: 1 Pro developer license, 1 unattended robot, AI credits pool, capped at businesses <$5M revenue) | Embedded iPaaS & Hub APIs | Acquired and folded into UiPath Integration Service; standalone embedded developer portal deprecated. |
 
 ## Open-Source GitHub Projects
 
