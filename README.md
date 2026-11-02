@@ -63,46 +63,35 @@ The global Integration Platform as a Service (iPaaS) and developer integration m
 
 ## Open-Source GitHub Projects
 
+Curated open-source integration frameworks, workflow automation platforms, embedded connectors, and ETL standards. Projects are sorted in descending order of GitHub star count:
 
+- **[n8n](https://github.com/n8n-io/n8n)** [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) — **Fair-code workflow automation & integration platform** with 400+ pre-built integrations, visual node-based editor, and inline JavaScript/Python code nodes (Sustainable Use License). Designed for complex self-hosted workflow automation and orchestrating internal APIs.
 
-- **Nango**
+- **[Huginn](https://github.com/huginn/huginn)** [![GitHub stars](https://img.shields.io/github/stars/huginn/huginn?style=social&color=white)](https://github.com/huginn/huginn/stargazers) — **Self-hosted agent-based system for automating online tasks** (MIT). Hackable, open-source alternative to IFTTT and Zapier that monitors events, parses JSON/XML/HTML, and runs automated actions on external web services and APIs.
 
-  **Single API for all integrations** (open source, self-hostable) — **the most practical open-source embedded integration framework**, with **400+ pre-configured APIs** across 25+ categories including accounting (NetSuite, QuickBooks, Xero) . **Features**: **Unified API**—one API to interact with all external APIs; **OAuth management**—`nango.openConnectUI()` initiates auth flows from frontend; **structured objects**—`nango.listRecords<GithubIssue>({ providerConfigKey: 'github', connectionId, model })` ; **pre-built, custom, and managed integrations**; originally derived from Pizzly (OAuth service) . **Tech stack**: TypeScript. **Deploy**: Self-hosted or Nango Cloud. **Trade-off**: **Unified API abstraction**—requires mapping external schemas; less flexible than raw API calls for edge cases. **Best for**: SaaS products wanting to offer native integrations to customers without building each OAuth flow and API wrapper from scratch—the most developer-friendly open-source embedded iPaaS.
+- **[Kestra](https://github.com/kestra-io/kestra)** [![GitHub stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers) — **Declarative, event-driven orchestrator & integration platform** (Apache 2.0). Connects modern data pipelines, microservices, and external cloud APIs with 500+ plugins, YAML workflows, and real-time event triggers.
 
+- **[Activepieces](https://github.com/activepieces/activepieces)** [![GitHub stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers) — **Open-source no-code workflow automation** (MIT). Provides a modular "pieces" architecture with 250+ community-built connectors, designed as a lightweight, developer-friendly alternative to Zapier for internal business automations.
 
+- **[Temporal](https://github.com/temporalio/temporal)** [![GitHub stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers) — **Durable execution platform & distributed integration orchestration** (MIT). Eliminates complex state machine and queue code when integrating multi-step distributed microservices and external APIs, ensuring fault-tolerant workflow completion.
 
-- **Hotglue**
+- **[Airbyte](https://github.com/airbytehq/airbyte)** [![GitHub stars](https://img.shields.io/github/stars/airbytehq/airbyte?style=social&color=white)](https://github.com/airbytehq/airbyte/stargazers) — **Open-source data integration & ELT engine** (ELv2). Powers scalable data replication with 350+ pre-built connectors from SaaS APIs, databases, and message queues into modern data warehouses and lakes.
 
-  **Embedded iPaaS with 600+ open-source connectors** (open source, self-hostable) — **the most connector-rich open-source embedded integration platform**, built on Python . **Features**: **600+ open-source connectors**; **code-first approach**—no lock-in of traditional iPaaS; **CLI for programmatic configuration management**; **detailed job logs, webhooks, and observability integrations**; **embedded integrations** for SaaS products offering native connectors to customers . **Tech stack**: Python. **Deploy**: Self-hosted or Hotglue Cloud. **Trade-off**: **Python-centric**—less flexible for non-Python teams; smaller community than Nango. **Best for**: teams wanting maximum connector coverage with code-first control—especially those already in the Python ecosystem.
+- **[Windmill](https://github.com/windmill-labs/windmill)** [![GitHub stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=social&color=white)](https://github.com/windmill-labs/windmill/stargazers) — **Fast, multi-language developer platform for scripts, workflows, and internal UIs** (AGPL v3/Enterprise). Runs TypeScript, Python, Go, and Bash scripts as endpoints, webhooks, and distributed flows with auto-generated UIs.
 
+- **[Automatisch](https://github.com/automatisch/automatisch)** [![GitHub stars](https://img.shields.io/github/stars/automatisch/automatisch?style=social&color=white)](https://github.com/automatisch/automatisch/stargazers) — **Self-hosted Zapier alternative for privacy-conscious teams** (AGPL v3). Stores all integration tokens, API credentials, and sync data strictly on your own infrastructure without vendor data leaks.
 
+- **[Nango](https://github.com/NangoHQ/nango)** [![GitHub stars](https://img.shields.io/github/stars/NangoHQ/nango?style=social&color=white)](https://github.com/NangoHQ/nango/stargazers) — **Open-source unified API & OAuth integration framework for product teams** (AGPL v3/Apache 2.0). Provides 400+ pre-configured SaaS API integrations, frontend OAuth Connect UI (`nango.openConnectUI()`), two-way sync, and structured object models for embedded product integrations.
 
-- **Terapi**
+- **[Apache Camel](https://github.com/apache/camel)** [![GitHub stars](https://img.shields.io/github/stars/apache/camel?style=social&color=white)](https://github.com/apache/camel/stargazers) — **Battle-tested enterprise integration framework (EIP)** (Apache 2.0). Implements core enterprise integration patterns with 300+ components, allowing developers to define routing and mediation rules across almost any messaging or transport protocol.
 
-  **Open-source embedded integration platform** (self-hosted iPaaS) — **the most complete self-hosted iPaaS architecture** for SaaS products, created March 2026 . **Features**: **Pre-built connectors and unified APIs**; **authentication management**—handles OAuth and connection lifecycle; **connection handling and synchronization**; **workflow automation**; **REST API** for authentication management, connection handling, synchronization, and triggering actions across integrated services . **Tech stack**: Per repository. **Deploy**: Self-hosted. **Trade-off**: **Newer project** (created March 2026)—limited community validation; documentation still maturing. **Best for**: SaaS vendors wanting a self-hosted embedded iPaaS foundation—willing to evaluate an early-stage but architecturally complete option.
+- **[Meltano](https://github.com/meltano/meltano)** [![GitHub stars](https://img.shields.io/github/stars/meltano/meltano?style=social&color=white)](https://github.com/meltano/meltano/stargazers) — **Declarative, code-first data integration and ELT engine** (MIT). Built on top of the Singer tap/target ecosystem with integrated dbt transformation orchestration and GitOps workflows.
 
+- **[Singer](https://github.com/singer-io/getting-started)** [![GitHub stars](https://img.shields.io/github/stars/singer-io/getting-started?style=social&color=white)](https://github.com/singer-io/getting-started/stargazers) — **Open-source standard for data extraction and loading** (Apache 2.0). Defines a Unix-pipe specification for composable, CLI-based taps (data sources) and targets (data destinations).
 
+- **[ByteChef](https://github.com/bytechefhq/bytechef)** [![GitHub stars](https://img.shields.io/github/stars/bytechefhq/bytechef?style=social&color=white)](https://github.com/bytechefhq/bytechef/stargazers) — **Open-source embedded API integration & workflow automation** (Apache 2.0). Provides embedded integration modules and visual workflow orchestration designed specifically for SaaS platforms offering native integrations to their customers.
 
-- **ByteChef**
-
-  **Embedded API integration and workflow automation** (open source, with Embedded modules) — **the most modular open-source embedded iPaaS** for building native product integrations . **Features**: **ByteChef Embedded** modules define core infrastructure for embedded API integration and workflow automation; designed for SaaS products needing to offer native third-party integrations . **Tech stack**: Per repository. **Deploy**: Self-hosted. **Trade-off**: **Embedded modules are a subset** of the broader ByteChef platform; verify feature completeness for your use case. **Best for**: teams wanting a modular embedded iPaaS architecture with workflow automation built in.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **n8n** — Fair-code workflow automation with 400+ integrations and inline code nodes (Sustainable Use License) . **Note**: General workflow automation, not embedded iPaaS—no OAuth UI for customers or unified API abstraction. **Best for**: internal automation, not customer-facing integrations.
-
-- **Activepieces** — MIT-licensed no-code automation with "pieces" model (MIT) . **Note**: Internal automation focus; no embedded customer integration features. **Best for**: teams wanting permissive licensing for internal workflows.
-
-- **Automatisch** — Open-source Zapier alternative focused on data staying on your servers (open source) . **Note**: Internal automation; no embedded iPaaS capabilities. **Best for**: privacy-focused internal automation.
-
-
-
-**Frameworks for building custom systems**: Combine **Nango** for OAuth and unified API access with **Hotglue** for broad connector coverage and **Terapi** for self-hosted embedded iPaaS architecture—creating a composable open-source integration stack. **None of these match MuleSoft's enterprise governance or Workato's recipe library**, but for developers building native integrations, the open-source options cover the critical layers.
-
+- **[Hotglue Connectors](https://github.com/hotgluexyz/recipes)** [![GitHub stars](https://img.shields.io/github/stars/hotgluexyz/recipes?style=social&color=white)](https://github.com/hotgluexyz/recipes/stargazers) — **Code-first embedded iPaaS & open-source connector library** (Open Source / MIT). Provides 600+ open-source Python connectors, taps, and recipes under [@hotgluexyz](https://github.com/hotgluexyz) for developers building custom native integration pipelines.
 
 
 ## How to Contribute
